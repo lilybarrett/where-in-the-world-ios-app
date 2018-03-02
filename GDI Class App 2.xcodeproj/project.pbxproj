@@ -14,6 +14,9 @@
 		51076E1E203CF7D0009D7A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51076E1C203CF7D0009D7A97 /* LaunchScreen.storyboard */; };
 		51076E29203CF7D0009D7A97 /* GDI_Class_App_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51076E28203CF7D0009D7A97 /* GDI_Class_App_2Tests.swift */; };
 		51076E34203CF7D0009D7A97 /* GDI_Class_App_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51076E33203CF7D0009D7A97 /* GDI_Class_App_2UITests.swift */; };
+		51C1A08D204634B700A6F875 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1A08C204634B700A6F875 /* PhotoResponse.swift */; };
+		51C1A08F2046352B00A6F875 /* PhotoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1A08E2046352B00A6F875 /* PhotoPage.swift */; };
+		51C1A0912046357600A6F875 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1A0902046357600A6F875 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		51076E2F203CF7D0009D7A97 /* GDI Class App 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDI Class App 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51076E33203CF7D0009D7A97 /* GDI_Class_App_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDI_Class_App_2UITests.swift; sourceTree = "<group>"; };
 		51076E35203CF7D0009D7A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C1A08C204634B700A6F875 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		51C1A08E2046352B00A6F875 /* PhotoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPage.swift; sourceTree = "<group>"; };
+		51C1A0902046357600A6F875 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				51076E1A203CF7D0009D7A97 /* Assets.xcassets */,
 				51076E1C203CF7D0009D7A97 /* LaunchScreen.storyboard */,
 				51076E1F203CF7D0009D7A97 /* Info.plist */,
+				51C1A08C204634B700A6F875 /* PhotoResponse.swift */,
+				51C1A08E2046352B00A6F875 /* PhotoPage.swift */,
+				51C1A0902046357600A6F875 /* Photo.swift */,
 			);
 			path = "GDI Class App 2";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C1A08D204634B700A6F875 /* PhotoResponse.swift in Sources */,
+				51C1A08F2046352B00A6F875 /* PhotoPage.swift in Sources */,
 				51076E16203CF7D0009D7A97 /* ViewController.swift in Sources */,
 				51076E14203CF7D0009D7A97 /* AppDelegate.swift in Sources */,
+				51C1A0912046357600A6F875 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
